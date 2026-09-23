@@ -30,7 +30,8 @@ ul {
     /* Links in the main section */
 section {
     padding: 1rem;
-    margin-left: 270px;
+    margin-left: 260px;
+
 }
 
 section a:link, section a:visited {
@@ -43,6 +44,7 @@ aside {
     padding: 1rem;
     float: left;
     width: 245px;
+    float: left;
 }
 
 aside h2 {
@@ -71,6 +73,11 @@ header h1, header h2 {
 
 header h1 {
     color: steelblue; font-style: italic; text-shadow: 2px 2px 2px steelblue; }
+
+/* Main*/
+main{
+    overflow:auto;
+}
 
 /* List */
 li {
